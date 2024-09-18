@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="#" method="post">
+            <h1>Cadastro para a Tripulação:</h1>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome..." required> <br>
+            </div>
+            <div class="form-group">
+                <label for="recompensa">Recompensa:</label>
+                <input type="number" id="recompensa" name="recompensa" placeholder="Digite sua recompensa..." required> <br>
+            </div>
+            <div class="form-group">
+                <label for="possui_fruta">Possui fruta?</label>
+                <select id="possui_fruta" name="possui_fruta" required><br>
+                    <option value="" disabled selected>Escolha sua opção</option>
+                    <option value="sim">Sim</option>
+                    <option value="nao">Não</option>
+                </select>
+            </div>
+        
+           
+            <br><button type="submit">Tente a sorte...</button>
+        </form>
+    </div>
+</body>
+</html>
